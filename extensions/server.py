@@ -12,7 +12,7 @@ redux_table = {('C','C'): ('5','5'), ('C', 'B'): ('2','3'), ('B', 'C'): ('3','2'
 def hello():
     #Reset choices if not previously reset
     global p1, p2
-    if p1 or p2 != '':
+    if p2 != '':
         print("Reset")
         p1 = ''
         p2 = ''
